@@ -1,0 +1,10 @@
+package bgu.spl.mics;
+import static org.junit.Assert.*;
+/**
+ * A "Marker" interface extending {@link Message}. When sending a Broadcast message
+ * using the {@link MessageBus}, it will be received by all the subscribers of this
+ * Broadcast-message type (the message Class).
+ */
+public interface Broadcast extends Message {
+
+}
